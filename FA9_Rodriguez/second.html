@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Formative Assessment 9 </title>
+		
+		<style>
+			* {
+				text-align: center;
+				color: white;
+			}
+			
+			img {
+				width: 400px;
+				height: 550px;
+				margin-right: 50px;
+				margin-left: 50px;
+			}
+			button {
+				background-color: #94CC8E;
+				border-style: dashed;
+				border-color: brown;
+				font-size: 20px;
+				font-family: monospace;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<img id="image" src="images/hyunjin.jfif">
+		<button onclick="originalPic()"> Image1 </button>
+		<button onclick="secondPic()"> Image2 </button>
+		
+		<script>
+			function originalPic() {
+				document.getElementById("image").src = "images/leeknow.jfif";
+			
+			}
+			function secondPic() {
+				document.getElementById("image").src = "images/hyunjin.jfif";
+			
+			}
+		
+		</script>
+	</body>
+</html
